@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8c259d9bc5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/film-section.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-section.css">
+    <title>LabTV</title>
+</head>
+
+<body>
+    <header class="top-navbar">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contatti</a></li>
+            <span><a href="index.html"><img id="logo" src="assets/images/logo-tipo.png" alt="labtv-logo"></a></span>
+            <div class="navbar-right">
+                <li ><a href="#login" onclick="loginPopup()">Login</a></li>
+                <li ><a id="fb-icon" class="social-icons" href="#facebook"><img src="assets/images/fb-icon.png" alt="facebook" ></a></li>  
+                <li ><a id="ig-icon" class="social-icons" href="#ig"><img src="assets/images/ig-icon.png" alt="instagram"></a></li> 
+                <li ><a id="youtube-icon" class="social-icons" href="#youtube"><img src="assets/images/youtube-icon.png" alt="youtube"></a></li>
+            </div>
+        </ul>
+    </header>
+
+    <h1 id="title-page">Home</h1>
+
+    <main class="movie-list-container">
+        
+        <section class="best-movie-list">
+            <h2 id="testslide">In evidenza</h2>
+            <span class="material-icons" id="left">arrow_back_ios</span>
+            <span class="material-icons" id="right">arrow_forward_ios</span>
+            <div class="movie-list" id="bestMovie">
+              
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="encanto" src="assets/images/movie image/encanto.jfif" alt="encanto">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Encanto</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"> <i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Encanto</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">In alto nelle montagne della Colombia c'è un luogo incantato chiamato Encanto. Qui, in una casa magica, vive la straordinaria famiglia Madrigal dove tutti hanno capacità fantastiche.</p></span>
+                        </a> 
+                    </div>
+                </div>
+                <div class="movie-list-item" id="dontlookup" >
+                    <img class="movie-list-item-image" id="dontlook" src="assets/images/movie image/test dontlook.jpg" alt="dont look up">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Don't Look Up!</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"> <i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Don't Look Up!</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Una coppia di astronomi si accorge dell'esistenza di un meteorite in rotta di collisione con la Terra. I due scienziati cercano di avvertire tutti sulla Terra che il meteorite distruggerà il pianeta in sei mesi.</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="kings" src="assets/images/movie image/kings-man.jfif" alt="kings man">
+                    <span class="movie-list-item-title"><h2 class="movie-title">The King's Man - Le origini</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">The King's Man - Le origini</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Diverse menti criminali si riuniscono per organizzare una guerra per spazzare via milioni di vite. Un uomo dovrà correre contro il tempo per fermarli e salvare l'umanità intera.</p></span>
+                        </a>    
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="ghostbusters" src="assets/images/movie image/ghostbusters.jfif" alt="ghostbusters">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Ghostbusters: Legacy</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Ghostbusters: Legacy</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Dopo essersi trasferiti in una piccola città, una madre e i suoi due figli iniziano a scoprire la loro connessione con gli Acchiappafantasmi originali e la segreta eredità lasciata dal nonno.</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="spiderman" src="assets/images/movie image/spiderman.jfif" alt="spiderman">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">L'identità dell'Uomo Ragno viene rivelata a tutti, e non riesce più a separare la sua vita normale dalla vita da supereroe, e quando chiede aiuto al Dottor Strange, lo costringe a scoprire cosa significa veramente essere l'Uomo Ragno.</p></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOX CON DETTAGLI -->
+
+            <div class="movie-box">
+                <span class="close-icon"><i class="fas fa-times-circle"></i></span>
+                <div class="movie-trailer" id="movieTrailer"></div>
+                <div class="btn-pos">
+                <a href="#" class="button">Guarda ora</a>
+                </div>
+                <div class="movie-info" id="movieInfo"></div>
+            </div>
+
+            <!-- ------------- -->
+            
+        </section>
+
+        <section class="choose-movie-list">
+            <h2>Scelti per te</h2>
+            
+            <div class="movie-list" id="choose-movie">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image"  id="matrix" src="assets/images/movie image/matrix.jfif" alt="matrix">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Matrix Resurrections</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Matrix Resurrections</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Un mondo di due realtà: una, la vita di tutti i giorni; l'altra, cosa c'è dietro. Per scoprire se la sua realtà è una bugia e per conoscere se stesso, il signor Anderson dovrà scegliere di seguire ancora una volta il coniglio bianco.</p></span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="noTimeToDie" src="assets/images/movie image/no-time-to-die.jfif" alt="no time to die">
+                    <span class="movie-list-item-title"><h2 class="movie-title">No Time to Die</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">No Time to Die</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Dopo aver lasciato i servizi segreti, Bond si gode una vita tranquilla in Giamaica. Tuttavia, la pace conquistata si rivela di breve durata quando il suo vecchio amico Felix Leiter gli chiede aiuto.</p></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="diabolik" src="assets/images/movie image/diabolik.jfif" alt="diabolik">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Diabolik</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Diabolik</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Dal famoso fumetto di Angela Giussani, le avventurose vicende di Diabolik, un ladro spietato che si scaglia contro banche, famiglie benestanti e persone che si sono arricchite in modo illecito, derubandole senza pietà.</p></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="spiderman" src="assets/images/movie image/spiderman.jfif" alt="spiderman">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">L'identità dell'Uomo Ragno viene rivelata a tutti, e non riesce più a separare la sua vita normale dalla vita da supereroe, e quando chiede aiuto al Dottor Strange, lo costringe a scoprire cosa significa veramente essere l'Uomo Ragno.</p></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="spiderman" src="assets/images/movie image/spiderman.jfif" alt="spiderman">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Spiderman - No Way Home</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">L'identità dell'Uomo Ragno viene rivelata a tutti, e non riesce più a separare la sua vita normale dalla vita da supereroe, e quando chiede aiuto al Dottor Strange, lo costringe a scoprire cosa significa veramente essere l'Uomo Ragno.</p></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="best-serie-list">
+            <h2 id="test">Film di animazione</h2>
+            
+            <div class="movie-list">
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="sing2" src="assets/images/movie image/Sing2.jpg" alt="sing2">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Sing 2</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Sing 2</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Buster Moon e il suo gruppo di animali artisti si preparano a lanciare un abbagliante spettacolo teatrale nella capitale mondiale del divertimento.</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="encanto" src="assets/images/movie image/encanto.jfif" alt="encanto">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Encanto</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"> <i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Encanto</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">In alto nelle montagne della Colombia c'è un luogo incantato chiamato Encanto. Qui, in una casa magica, vive la straordinaria famiglia Madrigal dove tutti hanno capacità fantastiche.</p></span>
+                        </a> 
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="raya" src="assets/images/movie image/raya.jpg" alt="raya">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Raya e l'ultimo drago</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Raya e l'ultimo drago</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Nel fantastico mondo di Kumandra, una giovane guerriera forte e solitaria di nome Raya deve ritrovare l'ultimo leggendario drago im grado di riunire regni e popolazioni divisi da tempo.</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="soul" src="assets/images/movie image/soul.jpg" alt="soul">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Soul</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Soul</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">Joe, direttore di una banda musicale delle scuole medie, sogna di suonare all'Half Note, un prestigioso locale di New York, finalmente riesce a ottenere una serata ma un colpo di scena rovina i suoi piani.</p></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="movie-list-item">
+                    <img class="movie-list-item-image" id="encanto" src="assets/images/movie image/encanto.jfif" alt="encanto">
+                    <span class="movie-list-item-title"><h2 class="movie-title">Encanto</h2></span>
+                    <div class="more-info-movie">
+                        <a class="more-info" href="javascript:void(0)"><i class='fas fa-play-circle'></i>
+                        <span class="up-title"><h2 class="movie-title">Encanto</h2></span>
+                        <span class="more-info-sinossi"><p class="sinossi">In alto nelle montagne della Colombia c'è un luogo incantato chiamato Encanto. Qui, in una casa magica, vive la straordinaria famiglia Madrigal dove tutti hanno capacità fantastiche.</p></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <!-- POPUP LOGIN -->
+
+    <div id="popup">
+        <section id="section-login">
+            <div class="form-container">
+            <form id="login-form" action="">
+                
+                <input placeholder="Email" type="text" id="email-login" value="" required>
+                <input placeholder="Password" type="password" id="password-login" value="" required>
+                
+                <button name="submit" type="submit" class="button" form="login-form" id="login-submit">Accedi</button>
+            
+                <div class="checkbox" id="missed-new-account">
+                    <a href="#recovery" >Hai dimenticato la password?</a>
+                    <a href="#new" id="new-account" onclick="newAccount()">Non sei registrato? Crea un account</a>
+                </div>
+            </form>      
+        </section>
+    </div>
+
+    <div id="opacity"></div>
+        
+
+    <!-- ------------- -->
+                
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

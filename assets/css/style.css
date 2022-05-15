@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background-color: #001211;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,p {
+  color: #fff;
+}
+
+h1, h2 {
+  font-weight: 500;
+}
+
+a {
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+:is(#popup, #opacity) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  z-index: 3;
+} 
+
+#popup a {
+  color: white;
+  text-decoration: underline;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#popup section {
+  background:rgb(0, 18, 17);
+  padding: 40px;
+  height: auto;
+  max-width: 600px;
+  margin: 90px auto;
+  text-align: center;
+  border-radius: 15px;
+}

@@ -1,0 +1,87 @@
+header.top-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+ul.navbar {
+    list-style-type: none;
+    height: 80px;
+    margin: 0;
+    text-align: center;
+    line-height: 80px;
+    overflow: hidden;
+    background-color: #162e2b;
+  }
+
+ul.navbar div.navbar-right{
+  float: right;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  color: #EA3951;
+  font-weight: 600;
+}
+  
+ul.navbar #logo {
+  top: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 70px;
+}
+
+li a.social-icons {
+  padding: 10px 10px;
+  border-radius: 50%;
+  line-height: 10px;
+}
+
+ul.navbar li:last-child {
+  margin-right: 20px; 
+} 
+
+ul.navbar div.navbar-right li:nth-child(2) {
+  margin-left: 20px; 
+} 
+
+#youtube-icon:hover {
+  background-color: #e64a41;
+  
+}
+
+#fb-icon:hover {
+  background-color: #3d5b99;
+  
+}
+
+#ig-icon:hover {
+  background:linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+

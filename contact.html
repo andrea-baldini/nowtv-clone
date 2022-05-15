@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8c259d9bc5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/film-section.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact-section.css">
+    <title>LabTV</title>
+</head>
+
+<body>
+    <header class="top-navbar">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contatti</a></li>
+            <span><a href="index.html"><img id="logo" src="assets/images/logo-tipo.png" alt="labtv-logo"></a></span>
+            <div class="navbar-right">
+                <li ><a href="#login" onclick="loginPopup()">Login</a></li>
+                <li ><a id="fb-icon" class="social-icons" href="#facebook"><img src="assets/images/fb-icon.png" alt="facebook" ></a></li>  
+                <li ><a id="ig-icon" class="social-icons" href="#ig"><img src="assets/images/ig-icon.png" alt="instagram"></a></li> 
+                <li ><a id="youtube-icon" class="social-icons" href="#youtube"><img src="assets/images/youtube-icon.png" alt="youtube"></a></li>
+            </div>
+        </ul>
+    </header>
+
+    <div class="contact-container">
+        <div class="title-contact">
+            <h2>Hai bisogno di assistenza?</h2>
+            <h3>Ti ricontatteremo al più presto</h3>
+        </div>
+
+        <div class="form-container">
+            <form id="contact" action="">
+
+                
+                    <input placeholder="Nome" type="text" id="name" required autofocus>
+
+                    <input placeholder="Cognome" type="text" id="surname" required>
+                 
+                    <input placeholder="Email" type="text" id="email" required>
+                 
+                    <input placeholder="Numero di telefono" type="text" id="tel" required>
+                  
+                    <textarea placeholder="Scrivi il tuo messaggio qui...." id="textArea"></textarea>
+
+                    <div class="checkbox">
+                    <input type="checkbox" id="check" name="terms" value="yes" required>
+                    <label for="terms">Accetto termini e condizioni</label>
+                    </div>
+
+                    <button name="submit" type="submit" class="button" form="contact" id="contact-submit">Invia</button>
+
+                    
+
+            </form>
+        </div>
+
+
+    </div>
+
+    <!-- POPUP LOGIN -->
+
+    <div id="popup">
+        <section id="section-login">
+            <div class="form-container">
+            <form id="login-form" action="">
+             
+                <input placeholder="Email" type="text" id="email-login" value="" required>
+                <input placeholder="Password" type="text" id="password-login" value="" required>
+                
+                <button name="submit" type="submit" class="button" form="login-form" id="login-submit">Accedi</button>
+            
+                <div class="checkbox" id="missed-new-account">
+                    <a href="#recovery" >Hai dimenticato la password?</a>
+                    <a href="#new" id="new-account" onclick="newAccount()">Non sei registrato? Crea un account</a>
+                </div>
+            </form>      
+        </section>
+    </div>
+
+    <div id="opacity"></div>
+   
+
+    <!-- ------------- -->
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</head>

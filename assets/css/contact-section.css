@@ -1,0 +1,70 @@
+div.contact-container{
+    position: relative;
+    width: 60%;
+    margin: 80px auto;
+    height: 600px;
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 15px;
+}
+
+div.title-contact {
+    color: #FFF;
+    position: relative;
+    width:80%;
+    margin: 10px auto;
+    height: auto;
+    line-height: 3rem;
+    text-align: center;
+}
+
+div.form-container{
+    position: relative;
+    
+    max-width: 300px;
+    margin: 10px auto;
+    height: auto;
+    text-align: center;
+}
+
+form input[type="text"],form input[type="password"], form input[type="email"], form input[type="tel"], form input[type="url"], form textarea{
+	
+	border:1px solid #CCC;
+	background:#FFF;
+	position: relative;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+   
+}
+
+div.checkbox{
+    display: inline-block;
+    position: relative;
+    margin: 10px auto;
+    height: auto;
+    text-align: center;
+}
+
+label {
+    color: #FFF;  
+}
+
+label.error {
+    float: left;
+    font-size: 12px;
+    font-style: italic;
+    color: #ffe4e4;
+    margin-top:-5px;
+    margin-left: 3px;
+}
+
+form textarea {
+	height:100px;
+	max-width:100%;
+    resize:none;
+}
+
+form input:focus, form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
